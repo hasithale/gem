@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-8 mt-16 pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="font-serif text-xs tracking-wider text-slate-500">© 2024 Sri Lankan Master Gemologist. Licensed by NGJA.</p>
+        <p className="font-serif text-xs tracking-wider text-slate-500">© {new Date().getFullYear()} Sri Lankan Master Gemologist. Licensed by NGJA. Creative Solution Polished & Shined by <a href="https://www.facebook.com/pixelcreativesolutions.lk" target="_blank" rel="noopener noreferrer" className="font-bold hover:text-primary transition-colors">Pixel Creative Solutions</a></p>
         <div className="flex gap-6">
           <button className="text-slate-400 hover:text-secondary material-symbols-outlined text-sm">share</button>
           <button className="text-slate-400 hover:text-secondary material-symbols-outlined text-sm">camera</button>
